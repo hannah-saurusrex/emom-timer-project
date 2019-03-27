@@ -1,0 +1,13 @@
+
+.time-wrapper {
+    /* display: block; */
+}
+
+.time-wrapper__timer {
+    display: inline-block;
+}
+
+.time-wrapper__frequency, .time-wrapper__duration {
+    border: 2px solid #5e2664;
+    border-radius: 20px;
+}
