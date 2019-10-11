@@ -1,0 +1,67 @@
+@import url(normalize.css);
+body {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold; }
+
+.time-wrapper {
+  /* display: block; */ }
+
+.time-wrapper__timer {
+  display: inline-block; }
+
+.time-wrapper__frequency, .time-wrapper__duration {
+  border: 2px solid #ffd1dc;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, #cf96fd, #ffd1dc); }
+
+body {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  width: 0 auto;
+  max-width: 250px; }
+
+.wrapper {
+  border: 2px solid grey;
+  padding: 10px 5px; }
+
+.button-container {
+  display: block;
+  text-align: center; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+.emom {
+  border: 2px solid #5e2664;
+  border-radius: 20px; }
+
+#grad1 {
+  background-image: linear-gradient(to right, #cf96fd, #5e2664); }
+
+.tabata {
+  border: 2px solid #008080;
+  border-radius: 20px; }
+
+#grad2 {
+  background-image: linear-gradient(to right, #81D8D0, #008080); }
+
+.amrap {
+  border: 2px solid #e9692c;
+  border-radius: 20px; }
+
+#grad3 {
+  background-image: linear-gradient(to right, #f6c3ab, #e9692c); }
+
+.time-wrapper__duration-amrap {
+  border: 2px solid #e9692c;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, #f6c3ab, #e9692c); }
+
+.time-wrapper__duration-tabata {
+  border: 2px solid #008080;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, #81D8D0, #008080); }
