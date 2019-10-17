@@ -7,7 +7,7 @@ body {
   font-weight: bold; }
 
 .time-wrapper {
-  /* display: block; */ }
+  display: block; }
 
 .time-wrapper__timer {
   display: inline-block; }

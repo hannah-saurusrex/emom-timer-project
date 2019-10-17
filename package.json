@@ -1,10 +1,9 @@
 {
   "name": "emom-timer-project",
   "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "dependencies": {
-    "jquery": "^3.4.1"
-  },
-  "devDependencies": {
     "autoprefixer": "^9.6.4",
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
@@ -20,5 +19,19 @@
     "postcss-nested": "^4.1.2",
     "postcss-nesting": "^7.0.1",
     "postcss-simple-vars": "^5.0.2"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hannah-saurusrex/emom-timer-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hannah-saurusrex/emom-timer-project/issues"
+  },
+  "homepage": "https://github.com/hannah-saurusrex/emom-timer-project#readme"
 }
