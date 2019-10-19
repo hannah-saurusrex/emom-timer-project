@@ -1,6 +1,6 @@
-@import "base/_global";
-@import "modules/_emom";
-@import "modules/_homepage";
-@import "modules/_amrap";
-@import "modules/_tabata";
+@import "./base/_global";
+@import "./modules/_emom";
+@import "./modules/_homepage";
+@import "./modules/_amrap";
+@import "./modules/_tabata";
 @import "normalize.css";

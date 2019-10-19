@@ -1,14 +1,70 @@
-
-.time-wrapper {
-    display: block;
-}
-
-.time-wrapper__timer {
+body {
+    font-family: 'Raleway', sans-serif;
+    background: linear-gradient(to left, #800080, #f9ceb7);
+  }
+  
+  #container {
+    height: 525px;
+    width: 360px;
+    margin: 100px auto;
+    background: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+    text-align: center;
+  }
+  
+  h1 {
+    background: #800080;
+    color: white;
+    letter-spacing: .125rem;
+    margin: 0;
+    font-size: 22px;
+    padding: 10px 50px;
+    text-align: center;
+    text-transform: uppercase;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  p {
+    padding-left: 20px;
+  }
+  
+  .frequency h3 {
     display: inline-block;
-}
-
-.time-wrapper__frequency, .time-wrapper__duration {
-    border: 2px solid #ffd1dc;
-    border-radius: 20px;
-    background-image: linear-gradient(to right, #cf96fd, #ffd1dc);
-}
+    font-size: 22px;
+  }
+  
+  #frequency-time, #totaltime-duration {
+    border-radius: 10px;
+    border: 2px solid #800080;
+    height: 75px;
+    width: 120px;
+    margin: 20px;
+    font-size: 16px;
+  }
+  
+  .totaltime h3 {
+    display: inline-block;
+    font-size: 22px;
+  }
+  
+  button {
+    text-transform: uppercase;
+    display: block;
+    margin: 30px auto;
+    background: #800080;
+    color: white;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    letter-spacing: .125rem;
+  }
+  
+  button:hover {
+    background: #f9ceb7;
+    color: grey;
+  }
+  
+  

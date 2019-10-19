@@ -1,27 +1,57 @@
 <html>
     <head>
         <title>EMOM Working Timer</title>
-        <link rel="stylesheet" type="text/css" href="./app/assets/styles/styles.css">
+        <link rel="stylesheet" type="text/css" href="./assets/styles/styles.css">
         <link href="https://fonts.googleapis.com/css?family=Raleway:300,400" rel="stylesheet">
     </head>
     <body>
-        <div class="wrapper">
-            <div class="logo">
-                <h1>EMOM</h1>
-            </div>
-            <div class="description">
-                <p>Every minute on a minute for [[total minutes]]</p>
-            </div>
-            <div class="time-wrapper">
-                <div class="time-wrapper__timer">
-                    <h2>Every</h2>
-                    <h2 class="time-wrapper__frequency">[[minute]]</h2>
-                </div>
-                <div class="time-wrapper__timer">
-                    <h2>For</h2>
-                    <h2 class="time-wrapper__duration">[[total minutes]]</h2>
-                </div>
-            </div>
-        </div>
+            <div id="container">
+                    <h1>Workout Timer</h1>
+                    
+                    <div id="timer">
+                      <h2>EMOM</h2>
+                      <p>Every minute on the minute for [] minutes</p>
+                      
+                      <div class="frequency">
+                        <h3>Every</h3>
+                        <select id="frequency-time">
+                             <option value="0.20">00:20 minutes</option>
+                             <option value="0.30">00:30 minutes</option>
+                             <option value="1.00">1 minute</option>
+                             <option value="1:15">01:15 minutes</option>
+                             <option value="1:30">01:30 minutes</option>
+                             <option value="1:45">01:45 minutes</option>
+                             <option value="2:00">02:00 minutes</option>
+                             <option value="2:15">02:15 minutes</option>
+                             <option value="2:30">02:30 minutes</option>
+                             <option value="2:45">02:45 minutes</option>
+                             <option value="3:00">03:00 minutes</option>
+                           </select>
+                      </div>
+                      
+                      <div class="totaltime">
+                        <h3>for</h3>
+                        <select id="totaltime-duration">
+                             <option value="1">1 minute</option>
+                             <option value="2">2 minutes</option>
+                             <option value="3">3 minutes</option>
+                             <option value="4">4 minutes</option>
+                             <option value="5">5 minutes</option>
+                             <option value="6">6 minutes</option>
+                             <option value="7">7 minutes</option>
+                             <option value="8">8 minutes</option>
+                             <option value="9">9 minutes</option>
+                             <option value="10">10 minutes</option>
+                           </select>
+                      </div>
+                      
+                      <button class="start" type="button">Start timer</button>
+                    
+                    </div>
+                  
+                    
+                  </div>
+                  <!--end container-->
+                  
     </body>
 </html>
